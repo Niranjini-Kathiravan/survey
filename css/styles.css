@@ -1,0 +1,55 @@
+body {
+  background-color: #FFFAD7;
+  font-family: monospace;
+  font-size: 15px;
+}
+h1 {
+  font-family: cursive;
+}
+p {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.top {
+  line-height: 150%;
+}
+.title {
+  font: 1.5em bold;
+  font-family: serif;
+  line-height: 1;
+
+}
+.note {
+  margin-left: 10px;
+}
+.apply {
+  font-size: 1.5em;
+  font-family: serif;
+}
+#outside {
+  background-color: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 70%;
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+#survey-form {
+  background-color: white;
+}
+
+fieldset {
+  border:1px solid gray;
+  margin: 10px;
+ }
+#number {
+  width: 120px;
+}

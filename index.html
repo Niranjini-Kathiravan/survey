@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+    <div id="outside" class="top">
+      <form id="survey-form" action="index.html" method="post">
+        <h1 style="text-align:center">Application to be my Boyfriend</h1>
+        <p style="text-align:center" class="note"><b>Note:</b> Be honest while filling out the form!!</p>
+      <body>
+      <fieldset>
+        <legend class="title"><b>Personal Details</b></legend><br>
+        <div>
+          <label>Name:</label>
+          <input type="text" name="YourName" value="" id="name" placeholder="enter your name" required>
+        </div><br>
+        <div>
+          <label>Address:</label>
+          <input type="text" name="YourAddress" value="" id="Address" placeholder="enter your address" required>
+        </div><br>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="YourEmail" value="" id="email" placeholder="enter your email" required>
+        </div><br>
+        <div>
+          <label id="number-label" for="phone">Phone Number:</label>
+          <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9" required>
+        </div><br>
+        <div>
+          <label>Age:</label>
+          <input type="text" name="YourAge" value="" id="age" placeholder="enter your age" required>
+        </div><br>
+        <div class="form-control">
+          <label>IQ:</label>
+          <input type="text" name="YourIQ" value="" id="iq" placeholder="enter your IQ" required>
+        </div><br>
+        <div>
+          <label>Gender:</label>
+          <select name="Gender" id="gender">
+            <option value="">--Please choose an option--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div><br>
+        <div>
+          <label>Date of proposed outing:</label>
+          <input type="date" name="YourDate" value="" id="date" placeholder="enter the date" required>
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <div>
+          <label class="apply"><b>Check all that Apply</b></label>
+          <p>
+            <input type="checkbox">I have a pet dog <br>
+            <input type="checkbox">I like to eat chappathi <br>
+            <input type="checkbox">I love to travel <br>
+            <input type="checkbox">I work full time and I am rich <br>
+            <input type="checkbox">I can buy you luxury products <br>
+          </p>
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <div>
+          <label>Educational Level:</label>
+       <select id="dropdown2">
+          <option value="">--select--</option>
+          <option value="University">University</option>
+          <option value="College">College</option>
+          <option value="Secondary">High School</option>
+          <option value="None">None</option>
+       </select>
+       </div>
+      </fieldset>
+      <br>
+      <fieldset>
+      <legend class="title"><b>Essay Section</b></legend>
+      <div>
+        <p>In 50 words or more explain why you want to be my Boyfriend?</p>
+        <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+      <div>
+        <p>Please upload contact details of 2 references here:</p>
+        <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+      <p>Upload a natural Picture without filter, Bank statment and Job offer letter here:
+      <input type="file" id="actual-btn"/>
+
+      </fieldset>
+      <br>
+      <div style="text-align:center">
+        <button type="submit" id="submit">Send your application</button>
+      </div>
+      </body>
+      </form>
+      </div>
+
+</html>
